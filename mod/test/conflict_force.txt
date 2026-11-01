@@ -1,0 +1,31 @@
+==== 应用结果 ====
+请求屏蔽：1 人，实际改动：1 人
+
+---- 引用清理 ----
+  城池·PersonsString：1 处
+  宝物·BelongedPersonIDString：7 处
+  部队事件·LaunchPersonString：5 处
+  部队事件·EffectPersonsString：1 处
+  部队事件·TargetPersonsString：1 处
+  SpouseIds·置为 -1：1 处
+  SpouseIds·删除本人条目：1 处
+  FatherIds·置为 -1：8 处
+  FatherIds·删除本人条目：1 处
+  MotherIds·删除本人条目：1 处
+  BrotherIds·删除本人条目：1 处
+  HatedIds·移除引用：14 处
+  HatedIds·删除本人条目：1 处
+  CloseIds·移除引用：11 处
+  CloseIds·删除本人条目：1 处
+  SuoshuIds·移除引用：1 处
+  SuoshuIds·删除本人条目：1 处
+  MarriageGranterId·删除本人条目：1 处
+
+---- 告警 ----
+  ! 势力「曹操」的君主 曹操(ID 343) 被屏蔽，已改立 ID 85 为君主
+
+---- 明细 ----
+  「曹操」(ID 343) 已登场 → 置死（Alive true → false，Available true → false）
+
+备份：D:\re\zhongsan\backup\conflict_force.bak.20261101-134434.json
+文件：D:\re\zhongsan\mod\test\conflict_force.json

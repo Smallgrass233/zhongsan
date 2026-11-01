@@ -1,0 +1,30 @@
+==== 应用结果 ====
+请求屏蔽：5 人，实际改动：3 人
+
+---- 引用清理 ----
+  城池·PersonsString：2 处
+  人际关系(PersonRelationIds)：7 处
+  SpouseIds·删除本人条目：4 处
+  SpouseIds·置为 -1：1 处
+  FatherIds·删除本人条目：4 处
+  MotherIds·删除本人条目：4 处
+  MotherIds·置为 -1：1 处
+  BrotherIds·删除本人条目：4 处
+  HatedIds·删除本人条目：4 处
+  CloseIds·删除本人条目：4 处
+  CloseIds·移除引用：1 处
+  SuoshuIds·删除本人条目：4 处
+  SuoshuIds·移除引用：1 处
+  MarriageGranterId·删除本人条目：4 处
+
+---- 告警 ----
+  ! ID 99999 在本文件里找不到对应人物（可能 ID 写错，或该段人物在本剧本/存档中不存在）
+
+---- 明细 ----
+  「王异」(ID 24) 已登场 → 置死（Alive true → false，Available true → false）
+  「卑弥呼」(ID 9017) 本已死亡且未登场，跳过人物本体
+  「王桃」(ID 9372) 未登场 → 置死（Alive true → false）
+  「居迎曼」(ID 25051) 已登场 → 置死（Alive true → false，Available true → false）
+
+备份：D:\re\zhongsan\backup\test_save.bak.20261101-134115.json
+文件：D:\re\zhongsan\mod\test\test_save.json

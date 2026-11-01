@@ -1,0 +1,17 @@
+# 备份（每次改数据前自动生成，体积大，不入库）
+backup/
+# 反编译产物（版权原因不入库，需要时用 ilspycmd 重新生成）
+ilspy/
+# 测试用的存档/剧本副本与临时产物
+mod/test/*.json
+mod/test/*.report.txt
+mod/test/shot.png
+# .NET 构建产物
+**/bin/
+**/obj/
+*.user
+.vs/
+# 临时分析文件
+*.tmp
+_dups.txt
+_dedupe_plan.json
